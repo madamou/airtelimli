@@ -279,12 +279,16 @@
             <%= MM.lang.s("website") %>
         </a>
     </li>
+	
+	<!--J'ai enlevé le menue Aide
     <li class="nav-item no-arrow">
         <a href="<%= docsurl %>" target="_blank" class="touch-row">
             <span class="plugin-ico app-ico"><img src="img/ico-help.png" border="0"></span>
             <%= MM.lang.s("help") %>
         </a>
     </li>
+	-->
+	
     <li class="nav-item no-submenu">
         <a href="#settings" class="touch-row">
             <span class="plugin-ico app-ico"><img src="img/ico-settings.png" border="0"></span>
@@ -315,12 +319,16 @@
             <li class="nav-item">
                 <a href="#settings/development/" class="menu1 touch-row"><%= MM.lang.s("development") %><br></a>
             </li>
-            <li class="nav-item">
+            
+			<!--
+			<li class="nav-item">
                 <a href="#settings/reportbug/" class="menu1 touch-row"><%= MM.lang.s("reportabug") %><br></a>
             </li>
+			
             <li class="nav-item">
                 <a href="#settings/about/" class="menu1 touch-row"><%= MM.lang.s("about") %><br></a>
             </li>
+			-->
             <% _.each(plugins, function(plugin) { %>
             <li class="nav-item">
                 <a href="#settings/<%= plugin.menuURL %>" class="menu1 touch-row"><%= MM.lang.s(plugin.name) %><br></a>
