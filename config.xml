@@ -5,10 +5,10 @@
         id        = "net.airtel.academy"
         versionCode = "388"
         version   = "1.14">
-    <name>Airtel Learning</name>
+    <name>nigeredu.net</name>
 
     <description>
-        Airtel Mobile Learning powered by Smartiss
+        nigeredu.net powered by Smartiss
     </description>
 
     <author href="http://smartiss.com" email="commercial@smartiss.com">
