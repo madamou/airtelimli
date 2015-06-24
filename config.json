@@ -1,7 +1,7 @@
 {
 "app_id" : "net.airtel.academy",
 "versioncode" : "388",
-"versionname" : "1.14",
+"versionname" : "2.00",
 "cache_expiration_time" : 300000,
 "default_lang" : "fr",
 "languages": {"fr" : "Français"},
