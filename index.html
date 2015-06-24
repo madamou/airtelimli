@@ -273,12 +273,17 @@
 </ul>
 
 <ul id="general-menu" class="nav nav-v js-accordion">
+    
+    <!--Cette balise était utilisée pour faire un lien vers la souscription sur le site web mobile
+    
     <li class="nav-item no-arrow">
         <a href="<%= siteurl%>" target="_blank" class="touch-row">
             <span class="plugin-ico app-ico"><img src="img/ico-network.png" border="0"></span>
             <%= MM.lang.s("website") %>
         </a>
     </li>
+	-->
+	
 	
 	<!--J'ai enlevé le menue Aide
     <li class="nav-item no-arrow">
@@ -345,11 +350,11 @@
 <form action="" novalidate>
     <div id="login-details">
         <p>
-            <input type="url" id="url" autocapitalize="off" autocorrect="off" read-only="true" placeholder="<%= MM.lang.s("siteurl") %>">
+            <input type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
         </p>
         <div id="login-credentials">
             <p>
-                <input type="text" id="username" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("username") %>">
+                <input type="text" id="username" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("username") %>" readonly>
             </p>
             <p>
                 <input type="password" id="password" placeholder="<%= MM.lang.s("password") %>">
