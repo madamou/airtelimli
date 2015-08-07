@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "net.airtel.academy"
         versionCode = "388"
-        version   = "1.14">
+        version   = "2.14">
     <name>nigeredu.net</name>
 
     <description>
@@ -19,7 +19,7 @@
         <string>1.14</string>
     </gap:config-file>
 
-    <preference name="phonegap-version" value="3.6.3" />
+    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
