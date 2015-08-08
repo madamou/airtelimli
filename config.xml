@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "net.nigeredu.academy"
+        id        = "net.airtel.academy"
         versionCode = "390"
         version   = "3.11">
     <name>nigeredu.net</name>
