@@ -1,7 +1,7 @@
 {
-"app_id" : "net.airtel.academy",
-"versioncode" : "388",
-"versionname" : "2.14",
+"app_id" : "net.nigeredu.academy",
+"versioncode" : "390",
+"versionname" : "3.11",
 "cache_expiration_time" : 300000,
 "default_lang" : "fr",
 "languages": {"fr" : "Français"},

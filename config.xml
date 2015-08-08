@@ -2,13 +2,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "net.airtel.academy"
-        versionCode = "388"
-        version   = "2.14">
+        id        = "net.nigeredu.academy"
+        versionCode = "390"
+        version   = "3.11">
     <name>nigeredu.net</name>
 
     <description>
-        nigeredu.net powered by Smartiss
+        nigeredu.net powered by Smart'ISS
     </description>
 
     <author href="http://smartiss.com" email="commercial@smartiss.com">
