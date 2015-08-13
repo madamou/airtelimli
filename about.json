@@ -1,14 +1,14 @@
 {
-"name": "NigerEdu.net",
+"name": "Illimi",
 "license": {
-    "name": "NigerEdu",
+    "name": "Airtel Illimi",
     "link": "http://www.smartiss.com"
 },
 "credits": [
 {
     "fullname": "Smart'ISS",
-    "contribution": "Principal Customizer",
-    "company": "Smartiss"
+    "contribution": "Application Owner",
+    "company": "Smart'ISS"
 }
 ]
 }
