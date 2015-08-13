@@ -1,7 +1,7 @@
 {
     "about": "À propos",
     "activity": "Activité",
-    "add": "Ajouter",
+    "add": "Ajouter une connexion",
     "addcontact": "Ajouter un contact",
     "addedtoqueue": "Vous êtes hors ligne ; l'opération en cours a été ajoutée à la file d'attente.",
     "addfakenotifications": "Ajouter des notifications factices",
@@ -54,7 +54,7 @@
     "days": "Jours",
     "delete": "Supprimer",
     "deletesite": "Supprimer ce site ?",
-    "deletesiteb": "Supprimer le site",
+    "deletesiteb": "Supprimer la connexion",
     "deletesitefiles": "Voulez-vous vraiment supprimer les fichiers téléchargés depuis ce site ?",
     "description": "Description",
     "details": "Détails",
