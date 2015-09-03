@@ -1,14 +1,14 @@
 {
-"name": "Illimi",
+"name": "ilimi",
 "license": {
-    "name": "Airtel Illimi",
+    "name": "ilimi Store",
     "link": "http://www.smartiss.com"
 },
 "credits": [
 {
     "fullname": "Smart'ISS",
     "contribution": "Application Owner",
-    "company": "Smart'ISS"
+    "company": "SmartISS"
 }
 ]
 }

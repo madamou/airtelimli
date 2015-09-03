@@ -2,13 +2,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "illimi"
-        versionCode = "392"
-        version   = "3.13">
-    <name>Airtel Illimi</name>
+        id        = "ilimi"
+        versionCode = "393"
+        version   = "3.14">
+    <name>ilimi Store</name>
 
     <description>
-        Airtel Illimi Powered by Smart'ISS
+        ilimi Store Powered by Smart'ISS
     </description>
 
     <author href="http://smartiss.com" email="contact@smartiss.com">

@@ -1,7 +1,7 @@
 {
-"app_id" : "illimi",
-"versioncode" : "392",
-"versionname" : "3.13",
+"app_id" : "ilimi",
+"versioncode" : "393",
+"versionname" : "3.14",
 "cache_expiration_time" : 300000,
 "default_lang" : "fr",
 "languages": {"fr" : "Français"},
