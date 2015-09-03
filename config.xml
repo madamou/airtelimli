@@ -5,10 +5,10 @@
         id        = "ilimi"
         versionCode = "393"
         version   = "3.14">
-    <name>ilimi Store</name>
+    <name>ilimi store</name>
 
     <description>
-        ilimi Store Powered by Smart'ISS
+        ilimi store Powered by Smart'ISS
     </description>
 
     <author href="http://smartiss.com" email="contact@smartiss.com">
