@@ -346,14 +346,18 @@
 
 <script type="text/template" id="add-site_template">
 <h1 class="app-ico">
-    <img src="img/login-logo.png" alt="NigerEdu.net" align="left">
+   <img src="img/login-logo.png" alt="NigerEdu.net" align="left">   
+   <!-- <img src="img/forfaits.png" alt="NigerEdu.net" align="right">-->
+   <img src="img/login-logo.png" alt="NigerEdu.net" align="right">  
 </h1>
-
-
-
-
 <form action="" novalidate>
     <div id="login-details">
+       <p>
+	 <font color="white" align="center">
+	 Envoyez par SMS les mots clés suivants au numéro 3049 sur Airtel et recevez votre nom d'utilisateur et mot de passe d'accès aux cours vidéo accompagné d'un forfait Internet Airtel. Cout 50 cfa/jour, 300 cfa/semaine et 1000 cfa/mois.
+	 Envoyez le mot "J50" pour un jour, "S300" pour 7 jours et "M1000" pour 30 jours
+	 </font>
+       </p>
         <p>
             <input id="url" type="hidden" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>" >
         </p>
@@ -382,7 +386,7 @@
 <script type="text/template" id="manage-accounts_template">
 <h1 class="app-ico">
     <img src="img/login-logo.png" alt="NigerEdu" align="left">
-    <img src="img/forfaits.png" alt="NigerEdu.net" align="right"> 	
+    	
 </h1>
 <% _.each(sites, function(site) { %>
     <div class="accounts">
@@ -407,7 +411,7 @@
 <script type="text/template" id="choose-account-upload_template">
 <h1 class="app-ico">
     <img src="img/login-logo.png" alt="NigerEdu" align="left">
-
+    
 </h1>
 
 <h2><%= MM.lang.s('chooseaccountuploadfile') %></h2>
