@@ -346,20 +346,12 @@
 
 <script type="text/template" id="add-site_template">
 <h1 class="app-ico">
-<table>
-  <tr>
-     <td>
-     <img src="img/login-logo.png" alt="NigerEdu.net" align="left"> 
-     </td>     
-  </tr>
-  <tr>
-     <td>
-     <center> <img src="img/forfaits.png" alt="NigerEdu.net"></center> 
-     </td>     
-  </tr>
-</table>  
+<p>
+   <img src="img/login-logo.png" alt="NigerEdu.net" align="left">   
 </h1>
-
+<p>
+<center> <img src="img/forfaits.png" alt="NigerEdu.net"></center>
+ </p>
 <form action="" novalidate>
     <div id="login-details">
        
@@ -389,21 +381,13 @@
 </script>
 
 <script type="text/template" id="manage-accounts_template">
-
-<table>
-  <tr>
-     <td>
-     <img src="img/login-logo.png" alt="NigerEdu.net" align="left"> 
-     </td>     
-  </tr>
-  <tr>
-     <td>
-     <center> <img src="img/forfaits.png" alt="NigerEdu.net"></center> 
-     </td>     
-  </tr>
-</table>  
-
-
+<h1 class="app-ico">
+   <img src="img/login-logo.png" alt="NigerEdu.net" align="left">
+    	
+</h1>
+<p>
+<center> <img src="img/forfaits.png" alt="NigerEdu.net"></center>
+ </p>
 <% _.each(sites, function(site) { %>
     <div class="accounts">
         <a class="account-details" onclick="MM.loadSite('<%= site.id %>')">
@@ -425,21 +409,13 @@
 </script>
 
 <script type="text/template" id="choose-account-upload_template">
-
-<table>
-  <tr>
-     <td>
-     <img src="img/login-logo.png" alt="NigerEdu.net" align="left"> 
-     </td>     
-  </tr>
-  <tr>
-     <td>
-     <center> <img src="img/forfaits.png" alt="NigerEdu.net"></center> 
-     </td>     
-  </tr>
-</table>  
-
-
+<h1 class="app-ico">
+    <img src="img/login-logo.png" alt="NigerEdu.net" align="left">
+    
+</h1>
+<p>
+<center> <img src="img/forfaits.png" alt="NigerEdu.net"></center>
+ </p>
 <h2><%= MM.lang.s('chooseaccountuploadfile') %></h2>
 <% _.each(sites, function(site) { %>
     <div class="accounts">
