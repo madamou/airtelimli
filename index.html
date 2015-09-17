@@ -115,8 +115,6 @@
 </head>
 <body>
 
-<img src="img/forfaits.png" alt="NigerEdu.net" align="center"> 
-
 <div id="add-site" style="display: none">
 
 </div>
@@ -348,11 +346,12 @@
 
 <script type="text/template" id="add-site_template">
 <h1 class="app-ico">
-    
-   <img src="img/login-logo.png" alt="NigerEdu.net" align="left">
- 
-
+    <img src="img/login-logo.png" alt="NigerEdu.net" align="left">
 </h1>
+<h1 class="app-ico">
+<img src="img/forfaits.png" alt="NigerEdu.net" align="center"> 
+</h1>
+
 <form action="" novalidate>
     <div id="login-details">
         <p>
@@ -409,6 +408,7 @@
 <h1 class="app-ico">
     <img src="img/login-logo.png" alt="NigerEdu">
 </h1>
+
 <h2><%= MM.lang.s('chooseaccountuploadfile') %></h2>
 <% _.each(sites, function(site) { %>
     <div class="accounts">
